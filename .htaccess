@@ -1,0 +1,4 @@
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|png|js|ico|gif)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>

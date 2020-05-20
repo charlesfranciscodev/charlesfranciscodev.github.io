@@ -1,0 +1,78 @@
+body {
+  position: relative;
+}
+
+section::before {
+  height: 54px;
+  content: "";
+  display: block;
+}
+
+#avatar {
+  max-height: 175px;
+  border-radius: 50%;
+}
+
+.resume-heading {
+  border-bottom: 3px solid #3399F3;
+}
+
+.company {
+  max-height: 60px;
+}
+
+.description-list {
+  list-style: none;
+}
+
+/* Icons */
+
+.logo {
+  max-height: 75px;
+}
+
+#macos {
+  max-height: 50px;
+}
+
+/* Programming Languages */
+
+.fa-html5 {
+  color: #E44D26;
+}
+
+.fa-css3 {
+  color: #2965F1;
+}
+
+.fa-js {
+  color: #F0DB4F;
+}
+
+/* Technologies */
+
+.fa-node-js {
+  color: #68A063;
+}
+
+.fa-bootstrap {
+  color: #553C7B;
+}
+
+.fa-react {
+  color: #61DBFB;
+}
+
+.fa-git-alt {
+  color: #F1502F;
+}
+
+.fa-docker {
+  color: #0DB7ED;
+}
+
+/* Portfolio */
+
+#flexbox-image-gallery {
+  transform: scaleX(-1);
+}
