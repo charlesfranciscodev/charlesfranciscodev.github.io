@@ -1,0 +1,51 @@
+body {
+  position: relative;
+}
+
+section::before {
+  height: 54px;
+  content: "";
+  display: block;
+}
+
+.resume-heading {
+  border-bottom: 3px solid #3399F3;
+}
+
+.company {
+  max-height: 60px;
+}
+
+.description-list {
+  list-style: none;
+}
+
+/* Skills */
+
+.logo {
+  max-height: 75px;
+}
+
+#go {
+  max-height: 50px;
+}
+
+.fa-js {
+  color: #F0DB4F;
+}
+
+.fa-bootstrap {
+  color: #553C7B;
+}
+
+.fa-react {
+  color: #61DBFB;
+}
+
+.fa-git-alt {
+  color: #F1502F;
+}
+
+.fa-docker {
+  color: #0DB7ED;
+}
